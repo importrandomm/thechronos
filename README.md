@@ -2,7 +2,7 @@
 Welcome to The Chronos - a simple website that displays the current time in a large, elegant font.
 
 # How to Use
-Simply open  your web browser.
+Simply open https://thechronos.netlify.app/ your web browser.
 The website will immediately start showing the current time.
 Enjoy the minimalist design and the constant update of the time.
 Features
