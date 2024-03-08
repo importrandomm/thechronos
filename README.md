@@ -28,40 +28,7 @@ The Chronos is designed to be lightweight and fast-loading. It won't bog down yo
 5. No Distractions
 Unlike other time websites that may bombard you with ads or unnecessary features, The Chronos stays true to its purpose: displaying the time, and only the time.
 
-Preview
-Here's a snippet of the code:
 
-html
-Copy code
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>The Chronos</title>
-  <style>
-    body {
-      font-size: 42px;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: 'Montserrat', sans-serif;
-      font-style: italic;
-      font-weight: 600;
-    }
-  </style>
-</head>
-<body>
-  <script>
-    function updateClock() {
-      const now = new Date();
-      const time = now.toLocaleTimeString();
-      document.body.innerText = time;
-    }
-    setInterval(updateClock, 1000);
-  </script>
-</body>
 Contributing
 If you'd like to contribute to The Chronos, feel free to fork this repository and submit a pull request with your changes.
 
